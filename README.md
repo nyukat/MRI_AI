@@ -1,4 +1,5 @@
 # Improving breast cancer diagnostics with deep learning for MRI  
+[![DOI](https://zenodo.org/badge/421948410.svg)](https://zenodo.org/badge/latestdoi/421948410)
 
 ## Introduction
 
