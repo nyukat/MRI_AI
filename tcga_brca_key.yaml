@@ -1,0 +1,1070 @@
+explanations:
+  lateralityType:
+    bilateral: Both breast are imaged and saved in the same serie
+    splitBilateral: Both breast are imaged, but they are saved in separate series
+    unilateralLeft: Only left breast is imaged
+    unilateralRight: Only right breast is imaged
+    multiVolumeBilateral: Both breast are imaged, but all acquisitions over time are saved in a single multi-volume serie
+    multiVolumeUnilateralLeft: Todo
+    multiVolumeUnilateralRight: Todo
+  series:
+    multiVolumeT1: A single volume with multiple volumes inside. It always contains pre- and post-contrast series.
+    multiVolumeT1Postcontrast: Same as above, but contains only post-contrast series.
+subjects:
+  TCGA-AO-A03M:
+    studies:
+      03-15-2001-80891:
+        lateralityType: splitBilateral
+        series:
+          102: t1pre
+          103: t1pre
+          104: t1c1
+          105: t1c1
+          106: t1c1_sub
+          107: t1c1_sub
+          112: t1c2
+          113: t1c2
+          114: t1c3
+          115: t1c3
+          116: t1c4
+          117: t1c4
+          118: t1c5
+          119: t1c5
+  TCGA-AO-A03V:
+    studies:
+      08-10-2002-16391:
+        lateralityType: splitBilateral
+        series:
+          102: t1pre
+          103: t1pre
+          104: t1c1
+          105: t1c1
+          106: t1c2
+          107: t1c2
+          108: t1c3
+          109: t1c3
+  TCGA-AO-A0J8:
+    studies:
+      12-20-2003-54853:
+        lateralityType: splitBilateral
+        series:
+          102: t1pre
+          103: t1pre
+          104: t1c1
+          105: t1c1
+          106: t1c2
+          107: t1c2
+          108: t1c3
+          109: t1c3
+  TCGA-AO-A0J9:
+    studies:
+      05-11-2001-96851:
+        lateralityType: splitBilateral
+        series:
+          102: t1pre
+          103: t1pre
+          104: t1c1
+          105: t1c1
+          106: t1c2
+          107: t1c2
+          108: t1c3
+          109: t1c3
+          110: t1c4
+          111: t1c4
+          112: t1c5
+          113: t1c5
+  TCGA-AO-A0JB:
+    studies:
+      06-07-2001-07152:
+        lateralityType: splitBilateral
+        series:
+          200: t1pre
+          201: t1pre
+          300: t1c1
+          301: t1c1
+          400: t1c2
+          401: t1c2
+          500: t1c3
+          501: t1c3
+  TCGA-AO-A0JF:
+    studies:
+      12-13-2003:
+        comment: This study dir is created by merging three folders that were originally in the TCGA dataset. They are the same study, but were separate.
+        lateralityType: bilateral
+        series:
+          6: t1pre
+          7: t1c1
+          9: t1c2
+          12: t1c3
+  TCGA-AO-A0JI:
+    studies:
+      11-06-2001-80329:
+        lateralityType: unilateralLeft
+        series:
+          101: t1pre
+          102: t1c1
+          103: t1c2
+          104: t1c3
+  TCGA-AO-A0JM:
+    studies:
+      09-15-1999-59814:
+        lateralityType: splitBilateral
+        series:
+          102: t1pre
+          103: t1pre
+          104: t1c1
+          105: t1c1
+          106: t1c2
+          107: t1c2
+          108: t1c3
+          109: t1c3
+  TCGA-AO-A129:
+    studies:
+      02-20-1997-35710:    
+        lateralityType: unilateralRight
+        series:
+          4: t1pre
+          5: t1c1
+          6: t1c2
+          7: t1c3
+  TCGA-AO-A12D:
+    studies:
+      09-23-1999-51146:
+        lateralityType: splitBilateral
+        series:
+          102: t1pre
+          103: t1pre
+          104: t1c1
+          105: t1c1
+          106: t1c2
+          107: t1c2
+          108: t1c3
+          109: t1c3
+  TCGA-AO-A12E:
+    studies:
+      02-01-2000-34890:
+        lateralityType: splitBilateral
+        series:
+          102: t1pre
+          103: t1pre
+          104: t1c1
+          105: t1c1
+          106: t1c2
+          107: t1c2
+          108: t1c3
+          109: t1c3
+          110: t1c4
+          111: t1c4
+          112: t1c5
+          113: t1c5
+  TCGA-AO-A12F:
+    studies:
+      10-16-2000-19596:
+        lateralityType: splitBilateral
+        series:
+          102: t1pre
+          103: t1pre
+          104: t1c1
+          105: t1c1
+          106: t1c2
+          107: t1c2
+          108: t1c3
+          109: t1c3
+          110: t1c4
+          111: t1c4
+          112: t1c5
+          113: t1c5
+  TCGA-AO-A12G:
+    studies:
+      03-29-2001-34806:
+        lateralityType: splitBilateral
+        series:
+          102: t1pre
+          103: t1pre
+          104: t1c1
+          105: t1c1
+          106: t1c2
+          107: t1c2
+          108: t1c3
+          109: t1c3
+          110: t1c4
+          111: t1c4
+          112: t1c5
+          113: t1c5
+  TCGA-AQ-A04H:
+    studies:
+      08-17-1995-Outside Read or Comparison BREAST MRI-71737:
+        lateralityType: 
+        series:
+        comment: Strange acquisition, need to check segmentation to see what's going on
+  TCGA-AR-A1AN:
+    studies:
+      10-14-2001-MRI - BREAST-21682:
+        lateralityType: multiVolumeBilateral
+        series:
+          8: multiVolumeT1
+  TCGA-AR-A1AQ:
+    studies:
+      11-21-2001-MRI - BREAST-98628:
+        lateralityType: multiVolumeBilateral
+        series:
+          8: multiVolumeT1
+      05-07-2003-MRI BREAST BILATERAL-81050:
+        lateralityType: multiVolumeBilateral
+        series:
+          8: multiVolumeT1
+  TCGA-AR-A1AX:
+    studies:
+      09-12-2002-MRI BREAST BILATERAL-55235:
+        lateralityType: multiVolumeBilateral
+        series:
+          8: multiVolumeT1
+      09-24-2003-MRI BREAST BILATERAL-61364:
+        lateralityType: multiVolumeBilateral
+        series:
+          5: multiVolumeT1
+  TCGA-AR-A24M:
+    studies:
+      07-26-2003-MRI BREAST BILATERAL-78602:
+        lateralityType: multiVolumeBilateral
+        series:
+          8: multiVolumeT1
+  TCGA-AR-A24R:
+    studies:
+      08-15-2003-MRI BREAST BILATERAL-09253:
+        lateralityType: multiVolumeBilateral
+        series:
+          8: multiVolumeT1
+  TCGA-AR-A24S:
+    studies:
+      11-25-1999-MRI - BREAST-35077:
+        lateralityType: multiVolumeBilateral
+        series:
+          8: multiVolumeT1
+      12-11-1999-MRI - BREAST-03194:
+        lateralityType: unilateralLeft
+        series:
+          2: t1pre
+          3: t1pre
+          4: t1pre
+          5: t1c1
+          6: t1c2
+          8: t1c3
+          9: t1c4
+        comment: Series 7 is undiagnostic. Study for exclusion. Very large timeframe between series.
+  TCGA-AR-A24U:
+    studies:
+      05-06-2001-MRI - BREAST-40839:
+        lateralityType: multiVolumeBilateral
+        series:
+          8: multiVolumeT1
+      08-28-2002-MRI BREAST UNILATERAL-31958:
+        lateralityType: multiVolumeUnilateralRight
+        series:
+          6: multiVolumeT1
+        comment: Post mastectomy?
+  TCGA-AR-A24W:
+    studies:
+      05-04-2001-MRI - BREAST-18149:
+        lateralityType: multiVolumeBilateral
+        series:
+          8: multiVolumeT1
+      05-20-2001-MRI - BREAST-35093:
+        comment: Post mastectomy? Breast biopsy MR? Also, unilateral and can't determine pre-/postc. For exclusion.
+  TCGA-AR-A24X:
+    studies:
+      05-31-2001-MRI - BREAST-56773:
+        lateralityType: multiVolumeBilateral
+        series:
+          8: multiVolumeT1
+  TCGA-AR-A254:
+    studies:
+      05-12-2002-MRI BREAST BILATERAL-98753:
+        lateralityType: multiVolumeBilateral
+        series:
+          8: multiVolumeT1
+      05-15-2002-MRI Breast Biopsy-41794:
+        comment: Breast biopsy MR, unilateral, for exclusion.
+  TCGA-BH-A0AW:
+    studies:
+      02-19-2002-BREAST MRI-78041:
+        lateralityType: multiVolumeBilateral
+        series:
+          4: multiVolumeT1
+        comment: I was able to open this in 3D Slicer per Trigger Time.
+  TCGA-BH-A0AZ:
+    studies:
+      01-09-2002-BREAST MRI-21010:
+        lateralityType: multiVolumeBilateral
+        series:
+          4: multiVolumeT1
+  TCGA-BH-A0B1:
+    studies:
+      09-04-2000-BREAST MRI-93235:
+        lateralityType: multiVolumeBilateral
+        series:
+          5: multiVolumeT1
+  TCGA-BH-A0B3:
+    studies:
+      10-09-2000-BREAST MRI-95408:
+        lateralityType: multiVolumeBilateral
+        series:
+          5: multiVolumeT1
+  TCGA-BH-A0B5:
+    studies:
+      10-26-2000-BREAST MRI-16171:
+        lateralityType: multiVolumeBilateral
+        series:
+          5: multiVolumeT1
+  TCGA-BH-A0B6:
+    studies:
+      10-18-1999-BREAST MRI-60819:
+        lateralityType: multiVolumeBilateral
+        series:
+          5: multiVolumeT1
+  TCGA-BH-A0BG:
+    studies:
+      06-11-2001-BREAST MRI-34066:
+        lateralityType: multiVolumeBilateral
+        series:
+          4: multiVolumeT1
+  TCGA-BH-A0BJ:
+    studies:
+      12-24-2001-BREAST MRI-76352:
+        lateralityType: multiVolumeBilateral
+        series:
+          4: multiVolumeT1
+  TCGA-BH-A0BM:
+    studies:
+      09-03-2000-BREAST MRI-42240:
+        lateralityType: multiVolumeBilateral
+        series:
+          5: multiVolumeT1
+  TCGA-BH-A0BQ:
+    studies:
+      04-25-2000-BREAST MRI-78053:
+        lateralityType: multiVolumeBilateral
+        series:
+          6: multiVolumeT1
+  TCGA-BH-A0BT:
+    studies:
+      06-01-2000-BREAST MRI-32173:
+        lateralityType: multiVolumeBilateral
+        series:
+          5: multiVolumeT1
+  TCGA-BH-A0C0:
+    studies:
+      08-20-2000-BREAST MRI-05483:
+        lateralityType: multiVolumeBilateral
+        series:
+          5: multiVolumeT1
+  TCGA-BH-A0DE:
+    studies:
+      08-01-2000-BREAST MRI-94390:
+        lateralityType: multiVolumeBilateral
+        series:
+          5: multiVolumeT1
+  TCGA-BH-A0DG:
+    studies:
+      12-05-2000-BREAST MRI-74580:
+        lateralityType: multiVolumeBilateral
+        series:
+          5: multiVolumeT1
+  TCGA-BH-A0DH:
+    studies:
+      01-09-2001-BREAST MRI-58184:
+        lateralityType: multiVolumeBilateral
+        series:
+          5: multiVolumeT1
+  TCGA-BH-A0DI:
+    studies:
+      11-20-2002-BREAST MRI-40073:
+        lateralityType: multiVolumeBilateral
+        series:
+          4: multiVolumeT1
+  TCGA-BH-A0DK:
+    studies:
+      12-22-2002-BREAST MRI-01189:
+        lateralityType: multiVolumeBilateral
+        series:
+          4: multiVolumeT1
+  TCGA-BH-A0DT:
+    studies:
+      10-29-2000-BREAST MRI-03753:
+        lateralityType: multiVolumeBilateral
+        series:
+          5: multiVolumeT1
+  TCGA-BH-A0DV:
+    studies:
+      11-29-2000-BREAST MRI-88132:
+        lateralityType: multiVolumeBilateral
+        series:
+          5: multiVolumeT1
+  TCGA-BH-A0DX:
+    studies:
+      11-21-2000-BREAST MRI-01298:
+        lateralityType: multiVolumeBilateral
+        series:
+          5: multiVolumeT1
+  TCGA-BH-A0DZ:
+    studies:
+      10-16-2002-BREAST MRI-48146:
+        lateralityType: multiVolumeBilateral
+        series:
+          4: multiVolumeT1
+  TCGA-BH-A0E0:
+    studies:
+      04-06-2003-BREAST MRI-53761:
+        lateralityType: multiVolumeBilateral
+        series:
+          4: multiVolumeT1
+  TCGA-BH-A0E1:
+    studies:
+      11-04-2002-BREAST MRI-66574:
+        lateralityType: multiVolumeBilateral
+        series:
+          4: multiVolumeT1
+  TCGA-BH-A0E2:
+    studies:
+      01-21-2003-BREAST MRI-05355:
+        lateralityType: multiVolumeBilateral
+        series:
+          4: multiVolumeT1
+  TCGA-BH-A0E9:
+    studies:
+      12-07-1999-BREAST MRI-15168:
+        lateralityType: multiVolumeBilateral
+        series:
+          5: multiVolumeT1
+  TCGA-BH-A0EI:
+    studies:
+      02-17-2002-BREAST MRI-14232:
+        lateralityType: multiVolumeBilateral
+        series:
+          4: multiVolumeT1
+  TCGA-BH-A0GY:
+    studies:
+      08-27-2001-MRI BREAST-03978:
+        lateralityType: multiVolumeBilateral
+        series:
+          4: multiVolumeT1
+  TCGA-BH-A0GZ:
+    studies:
+      02-17-2003-BREAST MRI-72293:
+        lateralityType: multiVolumeBilateral
+        series:
+          4: multiVolumeT1
+  TCGA-BH-A0H3:
+    studies:
+      07-27-2001-BREAST MRI-61560:
+        lateralityType: multiVolumeBilateral
+        series:
+          4: multiVolumeT1
+  TCGA-BH-A0H5:
+    studies:
+      06-20-2001-BREAST MRI-23793:
+        lateralityType: multiVolumeBilateral
+        series:
+          4: multiVolumeT1
+  TCGA-BH-A0H6:
+    studies:
+      02-03-2002-MRI BREAST-85463:
+        lateralityType: multiVolumeBilateral
+        series:
+          4: multiVolumeT1
+  TCGA-BH-A0H7:
+    studies:
+      03-26-2002-BREAST MRI-96862:
+        lateralityType: multiVolumeBilateral
+        series:
+          4: multiVolumeT1
+  TCGA-BH-A0H9:
+    studies:
+      09-25-2000-BREAST MRI-55072:
+        lateralityType: multiVolumeBilateral
+        series:
+          5: multiVolumeT1
+  TCGA-BH-A0HA:
+    studies:
+      11-17-2001-BREAST MRI-26938:
+        lateralityType: multiVolumeBilateral
+        series:
+          4: multiVolumeT1
+  TCGA-BH-A0HI:
+    studies:
+      03-14-2002-BREAST MRI-85477:
+        lateralityType: multiVolumeBilateral
+        series:
+          4: multiVolumeT1
+  TCGA-BH-A0HX:
+    studies:
+      11-05-2001-BREAST MRI-23277:
+        lateralityType: multiVolumeBilateral
+        series:
+          4: multiVolumeT1
+  TCGA-BH-A0HY:
+    studies:
+      05-29-2002-BREAST MRI-25536:
+        lateralityType: multiVolumeBilateral
+        series:
+          4: multiVolumeT1
+  TCGA-BH-A0RX:
+    studies:
+      09-02-2003-BREAST MRI-73444:
+        lateralityType: multiVolumeBilateral
+        series:
+          4: multiVolumeT1
+  TCGA-BH-A0W3:
+    studies:
+      10-12-2003-BREAST MRI-09153:
+        lateralityType: multiVolumeBilateral
+        series:
+          4: multiVolumeT1
+  TCGA-BH-A0W5:
+    studies:
+      07-25-2001-MRI BREAST-10788:
+        lateralityType: multiVolumeBilateral
+        series:
+          4: multiVolumeT1
+  TCGA-BH-A18F:
+    studies:
+      12-22-2003-BREAST MRI-50626:
+        lateralityType: multiVolumeBilateral
+        series:
+          4: multiVolumeT1
+  TCGA-BH-A18H:
+    studies:
+      02-03-2004-BREAST MRI-53089:
+        lateralityType: multiVolumeBilateral
+        series:
+          4: multiVolumeT1
+  TCGA-BH-A18I:
+    studies:
+      01-28-2004-BREAST MRI-54013:
+        lateralityType: multiVolumeBilateral
+        series:
+          4: multiVolumeT1
+  TCGA-BH-A201:
+    studies:
+      05-11-2004-BREAST MRI-49157:
+        lateralityType: multiVolumeBilateral
+        series:
+          4: multiVolumeT1
+  TCGA-BH-A202:
+    studies:
+      05-24-2004-BREAST MRI-87769:
+        lateralityType: multiVolumeBilateral
+        series:
+          4: multiVolumeT1
+  TCGA-BH-A28Q:
+    studies:
+      01-26-2004-BREAST MRI-39143:
+        lateralityType: multiVolumeBilateral
+        series:
+          4: multiVolumeT1
+  TCGA-E2-A105:
+    studies:
+      05-03-2001-MR BREAST UNILATERAL WWO CONT-21534:
+        lateralityType: multiVolumeUnilateralLeft
+        series:
+          5: t1pre
+          6: multiVolumeT1Postcontrast
+  TCGA-E2-A107:
+    studies:
+      06-28-2001-MR BREAST UNILATERAL WWO CONT-68137:
+        lateralityType: multiVolumeUnilateralLeft
+        series:
+          6: t1pre
+          7: multiVolumeT1Postcontrast
+  TCGA-E2-A108:
+    studies:
+      10-13-2001-MR BREAST BILATERAL WWO CONT-74709:
+        lateralityType: multiVolumeUnilateralLeft
+        series:
+          6: t1pre
+          7: multiVolumeT1Postcontrast
+  TCGA-E2-A109:
+    studies:
+      03-23-2000-MR BREAST BILATERAL WWO CONT-06870:
+        lateralityType: multiVolumeBilateral
+        series:
+          5: t1pre
+          6: multiVolumeT1Postcontrast
+  TCGA-E2-A10F:
+    studies:
+      02-21-2001-MR BREAST BILATERAL WWO CONT-16473:
+        lateralityType: multiVolumeBilateral
+        series:
+          7: t1pre
+          8: multiVolumeT1Postcontrast
+  TCGA-E2-A14N:
+    studies:
+      07-11-2001-MR BREAST UNILATERAL WWO CONT-13043:
+        lateralityType: unknown
+        comment: Two studies mixed in one? No easy way to figure out laterality.
+  TCGA-E2-A14P:
+    studies:
+      10-13-2000-MR BREAST BILATERAL WWO CONT-27050:
+        lateralityType: multiVolumeBilateral
+        series:
+          5: t1pre
+          6: multiVolumeT1Postcontrast
+  TCGA-E2-A14Q:
+    studies:
+      05-19-2001-MR BREAST UNILATERAL WWO CONT-82666:
+        lateralityType: multiVolumeUnilateralRight
+        series:
+          5: t1pre
+          6: multiVolumeT1Postcontrast
+  TCGA-E2-A14S:
+    studies:
+      03-02-2001-MR BREAST BILATERAL WWO CONT-85661:
+        lateralityType: multiVolumeBilateral
+        series:
+          6: t1pre
+          7: multiVolumeT1Postcontrast
+  TCGA-E2-A14T:
+    studies:
+      03-15-2001-MR BREAST BILATERAL WWO CONT-93911:
+        lateralityType: multiVolumeBilateral
+        series:
+          10: t1pre
+          11: multiVolumeT1Postcontrast
+  TCGA-E2-A14V:
+    studies:
+      06-10-2001-MR BREAST BILATERAL WWO CONT-38155:
+        lateralityType: multiVolumeBilateral
+        series:
+          6: t1pre
+          7: multiVolumeT1Postcontrast
+  TCGA-E2-A14X:
+    studies:
+      08-12-2001-MR BREAST BILATERAL WWO CONT-83369:
+        lateralityType: multiVolumeBilateral
+        series:
+          6: t1pre
+          7: multiVolumeT1Postcontrast
+        comment: >
+          Warning, files from 1-273.dcm to 1-364.dcm need to be deleted/moved 
+          from 7.000000-SAG 3D POST-CONTRAST-65570 directory.
+          This is because in that series there is an uneven number of images
+          per acquisition. First and second postcontrast series contain 136
+          images, meanwhile third postcontrast series contains 92 images.
+          Those 92 images need to be moved away for correct processing.
+  TCGA-E2-A14Y:
+    studies:
+      10-03-2001-MR BREAST BILATERAL WWO CONT-22306:
+        lateralityType: multiVolumeBilateral
+        series:
+          7: t1pre
+          8: multiVolumeT1Postcontrast
+  TCGA-E2-A150:
+    studies:
+      01-11-2002-MR BREAST BILATERAL WWO CONT-28816:
+        lateralityType: multiVolumeBilateral
+        series:
+          6: t1pre
+          7: multiVolumeT1Postcontrast
+  TCGA-E2-A152:
+    studies:
+      01-25-2002-MR BREAST BILATERAL WWO CONT-96356:
+        lateralityType: multiVolumeBilateral
+        series:
+          6: t1pre
+          7: multiVolumeT1Postcontrast
+  TCGA-E2-A159:
+    studies:
+      02-10-2002-MR BREAST BILATERAL WWO CONT-48613:
+        lateralityType: multiVolumeBilateral
+        series:
+          6: t1pre
+          7: multiVolumeT1Postcontrast
+  TCGA-E2-A15A:
+    studies:
+      03-06-2002-MR BREAST BILATERAL WWO CONT-46241:
+        lateralityType: multiVolumeBilateral
+        series:
+          6: t1pre
+          7: multiVolumeT1Postcontrast
+  TCGA-E2-A15E:
+    studies:
+      04-06-2002-MR BREAST BILATERAL WWO CONT-26083:
+        lateralityType: multiVolumeBilateral
+        series:
+          8: t1pre
+          9: multiVolumeT1Postcontrast
+  TCGA-E2-A15F:
+    studies:
+      04-28-2002-MR BREAST BILATERAL WWO CONT-08560:
+        lateralityType: multiVolumeBilateral
+        series:
+          6: t1pre
+          7: multiVolumeT1Postcontrast
+  TCGA-E2-A15H:
+    studies:
+      06-09-2002-MR BREAST BILATERAL WWO CONT-16052:
+        lateralityType: multiVolumeBilateral
+        series:
+          6: t1pre
+          7: multiVolumeT1Postcontrast
+  TCGA-E2-A15I:
+    studies:
+      06-15-2002-MR BREAST BILATERAL WWO CONT-84178:
+        lateralityType: multiVolumeBilateral
+        series:
+          6: t1pre
+          7: multiVolumeT1Postcontrast
+  TCGA-E2-A15J:
+    studies:
+      06-20-2002-MR BREAST BILATERAL WWO CONT-27666:
+        lateralityType: multiVolumeBilateral
+        series:
+          6: t1pre
+          7: multiVolumeT1Postcontrast
+  TCGA-E2-A15K:
+    studies:
+      07-21-2002-MR BREAST BILATERAL WWO CONT-17072:
+        lateralityType: multiVolumeBilateral
+        series:
+          6: t1pre
+          7: multiVolumeT1Postcontrast
+  TCGA-E2-A15L:
+    studies:
+      07-18-2002-MR BREAST BILATERAL WWO CONT-99306:
+        lateralityType: multiVolumeBilateral
+        series:
+          6: t1pre
+          7: multiVolumeT1Postcontrast
+  TCGA-E2-A15M:
+    studies:
+      08-11-2002-MR BREAST BILATERAL WWO CONT-35322:
+        lateralityType: multiVolumeBilateral
+        series:
+          6: t1pre
+          7: multiVolumeT1Postcontrast
+  TCGA-E2-A1B1:
+    studies:
+      12-21-1999-MR BREAST BILATERAL WWO CONT-74167:
+        lateralityType: multiVolumeBilateral
+        series:
+          8: t1pre
+          9: multiVolumeT1Postcontrast
+  TCGA-E2-A1B5:
+    studies:
+      04-29-2001-MR BREAST BILATERAL WWO CONT-98814:
+        lateralityType: multiVolumeBilateral
+        series:
+          5: t1pre
+          6: multiVolumeT1Postcontrast
+  TCGA-E2-A1B6:
+    studies:
+      05-31-2001-MR BREAST BILATERAL WWO CONT-82932:
+        lateralityType: multiVolumeBilateral
+        series:
+          6: t1pre
+          7: multiVolumeT1Postcontrast
+  TCGA-E2-A1IE:
+    studies:
+      01-04-2001-MR BREAST BILATERAL WWO CONT-63539:
+        lateralityType: multiVolumeBilateral
+        series:
+          11: t1pre
+          12: multiVolumeT1Postcontrast
+  TCGA-E2-A1IG:
+    studies:
+      09-01-2001-MR BREAST BILATERAL WWO CONT-98834:
+        lateralityType: multiVolumeBilateral
+        series:
+          6: t1pre
+          7: multiVolumeT1Postcontrast
+  TCGA-E2-A1II:
+    studies:
+      03-29-2001-MR BREAST BILATERAL WWO CONT-41862:
+        lateralityType: multiVolumeBilateral
+        series:
+          9: t1pre
+          10: multiVolumeT1Postcontrast
+  TCGA-E2-A1IJ:
+    studies:
+      08-02-2001-MR BREAST BILATERAL WWO CONT-31159:
+        lateralityType: multiVolumeBilateral
+        series:
+          7: t1pre
+          8: multiVolumeT1Postcontrast
+  TCGA-E2-A1IK:
+    studies:
+      05-04-2002-MR BREAST BILATERAL WWO CONT-09734:
+        lateralityType: multiVolumeBilateral
+        series:
+          6: t1pre
+          7: multiVolumeT1Postcontrast
+  TCGA-E2-A1IN:
+    studies:
+      07-28-2002-MR BREAST BILATERAL WWO CONT-40961:
+        lateralityType: multiVolumeBilateral
+        series:
+          6: t1pre
+          7: multiVolumeT1Postcontrast
+  TCGA-E2-A1L7:
+    studies:
+      12-29-2001-MR BREAST BILATERAL WWO CONT-27861:
+        lateralityType: multiVolumeBilateral
+        series:
+          6: t1pre
+          7: multiVolumeT1Postcontrast
+  TCGA-E2-A1L9:
+    studies:
+      05-03-2002-MR BREAST BILATERAL WWO CONT-62542:
+        lateralityType: multiVolumeBilateral
+        series:
+          6: t1pre
+          8: multiVolumeT1Postcontrast
+  TCGA-E2-A1LG:
+    studies:
+      11-06-2002-MR BREAST BILATERAL WWO CONT-85265:
+        lateralityType: unknown
+        comment: Two studies mixed in one? No easy way to figure out laterality.
+  TCGA-EW-A1IY:
+    studies:
+      06-20-2001-BreastBilateral Tumor-47912:
+        lateralityType: bilateral
+        series:
+          13: t1pre
+          14: t1c1
+          15: t1c2
+          17: t1c3
+  TCGA-EW-A1IZ:
+    studies:
+      07-24-2002-BreastBil tumor ax-25453:
+        lateralityType: bilateral
+        series:
+          8: t1pre
+          9: t1c1
+          15: t1c2
+          22: t1c3
+  TCGA-EW-A1J2:
+    comment: No MRI studies, only mammography
+  TCGA-EW-A1J6:
+    studies:
+      11-02-2001-BreastBilateral Tumor-72903:
+        lateralityType: bilateral
+        series:
+          8: t1pre
+          9: t1c1
+          12: t1c2
+          17: t1c3
+  TCGA-EW-A1OY:
+    studies:
+      08-31-2001-BODYBREAST-17453:
+        lateralityType: unknown
+        comment: No fat saturated series.
+  TCGA-EW-A1OZ:
+    studies:
+      08-27-2000-BreastBil tumor ax-49097:
+        lateralityType: bilateral
+        series:
+          10: t1pre
+          11: t1c1
+          14: t1c2
+          21: t1c3
+  TCGA-EW-A1P0:
+    studies:
+      12-23-1999-BreastBil tumor ax-02182:
+        lateralityType: bilateral
+        series:
+          10: t1pre
+          11: t1c1
+          14: t1c2
+          18: t1c3
+  TCGA-EW-A1P3:
+    studies:
+      08-24-2000-BreastBil tumor ax-02716:
+        lateralityType: bilateral
+        series:
+          10: t1pre
+          11: t1c1
+          14: t1c2
+          22: t1c3
+  TCGA-EW-A1P4:
+    studies:
+      09-13-2001-BreastBil tumor ax-51702:
+        lateralityType: bilateral
+        series:
+          10: t1pre
+          11: t1c1
+          14: t1c2
+          25: t1c3
+  TCGA-EW-A1PA:
+    studies:
+      07-25-2002-BreastBil tumor ax-18744:
+        lateralityType: bilateral
+        series:
+          8: t1pre
+          9: t1c1
+          15: t1c2
+          20: t1c3
+  TCGA-EW-A1PC:
+    studies:
+      01-02-2003-BREAST MRI BIL W WO CON-96599:
+        lateralityType: bilateral
+        series:
+          6: t1pre
+          7: t1c1
+          8: t1c2
+          9: t1c3
+          5: t1c4
+          10: t1c5
+  TCGA-EW-A2FR:
+    studies:
+      08-06-2000-BreastBil tumor ax-02819:
+        lateralityType: bilateral
+        series:
+          10: t1pre
+          11: t1c1
+          14: t1c2
+          21: t1c3
+  TCGA-EW-A2FS:
+    studies:
+      06-11-2000-BreastBil tumor ax-52719:
+        lateralityType: bilateral
+        series:
+          10: t1pre
+          11: t1c1
+          14: t1c2
+          18: t1c3
+  TCGA-EW-A3E8:
+    studies:
+      05-08-2003-Breast Bil tumor ax-44493:
+        lateralityType: bilateral
+        series:
+          6: t1pre
+          7: t1c1
+          9: t1c2
+          12: t1c3
+  TCGA-EW-A423:
+    comment: No MRI studies, only mammography.
+  TCGA-OL-A5D6:
+    studies:
+      06-21-2003-MRI BREAST BILAT CAD WWO-94174:
+        lateralityType: multiVolumeBilateral
+        series:
+          401: t1pre
+          501: multiVolumeT1Postcontrast
+        comment: Series 501 is a high resolution acquisition (DYN_eTHRIVE HR)
+  TCGA-OL-A5D7:
+    studies:
+      05-19-2003-MRI BREAST BILAT CAD WWO-26776:
+        lateralityType: multiVolumeBilateral
+        series:
+          601: multiVolumeT1
+  TCGA-OL-A5D8:
+    studies:
+      06-16-2003-MRI BREAST BIL WOW CON-02960:
+        lateralityType: multiVolumeBilateral
+        series:
+          7: t1pre
+          8: multiVolumeT1Postcontrast
+  TCGA-OL-A5DA:
+    studies:
+      05-04-2003-MRI BREAST WWO  SUB  RECON-59716:
+        lateralityType: bilateral
+        series:
+          8: t1pre
+          9: t1c1
+          10: t1c2
+          11: t1c3
+          12: t1c4
+          13: t1c5
+          14: t1c6
+  TCGA-OL-A5RU:
+    studies:
+      02-12-2005-MRI BREAST BILAT WWO-62563:
+        lateralityType: multiVolumeBilateral
+        series:
+          601: multiVolumeT1
+  TCGA-OL-A5RV:
+    studies:
+      04-24-2005-MRI BREAST BILAT CAD WWO-55286:
+        lateralityType: multiVolumeBilateral
+        series:
+          501: multiVolumeT1
+  TCGA-OL-A5RW:
+    studies:
+      04-17-2005-MRI BREAST BILAT WWO-27019:
+        lateralityType: multiVolumeBilateral
+        series:
+          601: multiVolumeT1
+  TCGA-OL-A5RX:
+    studies:
+      10-30-2005-MRI BREAST BILAT WWO-10139:
+        lateralityType: multiVolumeBilateral
+        series:
+          701: multiVolumeT1
+  TCGA-OL-A5RZ:
+    studies:
+      06-12-2006-MRI BREAST BILAT CAD WWO-83084:
+        lateralityType: multiVolumeBilateral
+        series:
+          501: multiVolumeT1
+  TCGA-OL-A66I:
+    studies:
+      10-26-2002-MRI BREAST BILAT WWO-29481:
+        lateralityType: multiVolumeBilateral
+        series:
+          1001: multiVolumeT1
+        comment: HR sense?
+  TCGA-OL-A66J:
+    studies:
+      01-25-2003-MRI BREAST BILAT CAD WWO-06900:
+        lateralityType: multiVolumeBilateral
+        series:
+          801: multiVolumeT1
+  TCGA-OL-A66K:
+    studies:
+      11-13-2004-MRI BREAST BILAT CAD WWO-61141:
+        lateralityType: multiVolumeBilateral
+        series:
+          1001: multiVolumeT1
+  TCGA-OL-A66L:
+    studies:
+      12-06-2004-MRI BREAST BILAT CAD WWO-80808:
+        lateralityType: multiVolumeBilateral
+        series:
+          501: multiVolumeT1
+  TCGA-OL-A66N:
+    studies:
+      03-11-2006-MRI BREAST BILAT CAD WWO-17033:
+        lateralityType: multiVolumeBilateral
+        series:
+          1401: multiVolumeT1
+        comment: Warning, it looks like there are two precontrast seqs in Series 1401. Should probably use only second one (at trigger time 74996)
+      06-19-2006-MRI BREAST BILAT CAD WWO-94537:
+        lateralityType: multiVolumeBilateral
+        series:
+          701: multiVolumeT1
+  TCGA-OL-A66O:
+    studies:
+      10-10-2006-MRI BREAST BIL WO W CONTRAST-26575:
+        lateralityType: bilateral
+        series:
+          10: t1pre
+          11: t1c1
+          14: t1c2
+          16: t1c3
+        comment: Bilateral implants
+  TCGA-OL-A6VO:
+    studies:
+      06-12-2006-MRI BREAST BILAT CAD WWO-87425:
+        lateralityType: multiVolumeBilateral
+        series:
+          501: multiVolumeT1
+  TCGA-OL-A6VR:
+    studies:
+      06-18-2005-MRI BREAST BILAT WWO-06613:
+        lateralityType: multiVolumeBilateral
+        series:
+          601: multiVolumeT1
+      06-22-2005-MRI BREAST BILAT CAD WWO-63192:
+        lateralityType: multiVolumeBilateral
+        series:
+          1801: multiVolumeT1
